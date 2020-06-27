@@ -1,5 +1,5 @@
 # USAGE
-# python webstreaming.py --ip 0.0.0.0 --port 8000
+# python webstreaming.py --model MobileNetSSD_deploy.caffemodel --prototxt MobileNetSSD_deploy.prototxt --ip <IP ADDRESS> --port 8000
 
 # import the necessary packages
 from imutils.video import VideoStream
